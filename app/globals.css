@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  .font-heading {
+    font-family: var(--font-poppins);
+  }
+
+  .font-sans {
+    font-family: var(--font-inter);
+  }
+}
+
+/* 👇 Marquee Animations (slower and clean) */
+.animate-marquee {
+  animation: marquee 40s linear infinite; /* ⏳ slower to 40s */
+}
+
+.animate-marquee2 {
+  animation: marquee2 45s linear infinite; /* ⏳ even slower to 45s */
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes marquee2 {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
