@@ -92,7 +92,7 @@ const Header = () => {
               ))}
               <li>
                 <Button asChild size="sm" className="w-full bg-primary hover:bg-primary/80 text-background">
-                  <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                  <a href="https://drive.google.com/file/d/1EvREiubV-9PzdnPRBUKIA0xjXG4vHZRo/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                     Resume
                   </a>
                 </Button>
