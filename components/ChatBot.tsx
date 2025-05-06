@@ -192,3 +192,6 @@ export default function ChatWidget() {
     </div>
   );
 }
+
+export default ChatBot
+
