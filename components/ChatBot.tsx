@@ -44,7 +44,7 @@ const fallbackResponses = [
   "What a thought-provoking question! It reminds me of some challenges I tackled in my recent projects. Would you like to hear about them?",
 ];
 
-export default function ChatWidget() {
+export default function ChatBot() {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<Message[]>([
     { type: "bot", text: "Hi there! I'm Madhurima's virtual assistant. How can I help you today?" },
