@@ -8,6 +8,7 @@ import TechStack from "@/components/tech-stack"
 import Skills from "@/components/skills"
 import Faq from "@/components/faq"
 import Contact from "@/components/contact"
+import ChatBot from "@/components/ChatBot"
 import { useInView } from "framer-motion"
 
 export default function Home() {
