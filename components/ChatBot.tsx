@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { BarChart3, BookOpen, BrainCircuit, Database } from "lucide-react";
-import ChatWidget from "./components/ChatWidget"; // Import the ChatWidget
+import ChatBot from "./components/ChatBot"; // Import the ChatWidget
 
 const About = () => {
   const containerVariants = {
@@ -115,7 +115,7 @@ const App = () => {
       {/* Other sections of your portfolio */}
       <About />
       {/* Chat widget component */}
-      <ChatWidget />
+      <ChatBot />
     </div>
   );
 };
