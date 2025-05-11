@@ -51,7 +51,11 @@ const Header = () => {
           </ul>
           <Button asChild size="sm" className="bg-primary hover:bg-primary/80 text-background">
             <a
+<<<<<<< HEAD
               href="https://drive.google.com/file/d/1EvREiubV-9PzdnPRBUKIA0xjXG4vHZRo/view?usp=drive_link"
+=======
+              href="https://drive.google.com/file/d/1xtefcLSd-mZxlnx7jvfqY85Q0YTIRWTF/view?usp=sharing"
+>>>>>>> 1c817cc5d90674d7f8d64f927442a0a07b139eda
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -92,7 +96,11 @@ const Header = () => {
               ))}
               <li>
                 <Button asChild size="sm" className="w-full bg-primary hover:bg-primary/80 text-background">
+<<<<<<< HEAD
                   <a href="https://drive.google.com/file/d/1EvREiubV-9PzdnPRBUKIA0xjXG4vHZRo/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+=======
+                  <a href="https://drive.google.com/file/d/1xtefcLSd-mZxlnx7jvfqY85Q0YTIRWTF/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+>>>>>>> 1c817cc5d90674d7f8d64f927442a0a07b139eda
                     Resume
                   </a>
                 </Button>

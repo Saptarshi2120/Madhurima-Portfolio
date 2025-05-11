@@ -30,6 +30,7 @@ const config = {
         accent: "#F5C6EC", // Soft pink
         highlight: "#FFDEB4", // Light peach
         muted: "#1A1E2E", // Dark blue-gray for backgrounds
+<<<<<<< HEAD
         // Additional colors for the chatbot
         purple: {
           600: "#9333EA",
@@ -40,6 +41,8 @@ const config = {
           800: "#1F2937",
           900: "#111827",
         },
+=======
+>>>>>>> 1c817cc5d90674d7f8d64f927442a0a07b139eda
       },
       borderRadius: {
         lg: "0.5rem",
